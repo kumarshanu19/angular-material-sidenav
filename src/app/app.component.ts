@@ -14,7 +14,7 @@ export class AppComponent {
 
   navList = [
     {name: "About Us"},
-    {name: "Mission & Vission"},
+    {name: "Mission & Vision"},
     {name: "Services Offered"},
     {name: "Research Report"},
     {name: "Business Center"},
