@@ -1,7 +1,7 @@
 <mat-sidenav-container class="example-container">
 
-  <mat-sidenav class="mt_sidenave" [ngStyle]="{'width': width  +'%' }" (setWidth)="setWidth ($event) " appOpenSidebarOnSwipe #sidenav
-    mode="over" position="end">
+  <mat-sidenav class="mt_sidenave" [ngStyle]="{'width': width  +'%' }" (setWidth)="setWidth ($event) "
+    appOpenSidebarOnSwipe #sidenav mode="over" position="end">
     <mat-toolbar class="mt_bar" *ngFor="let item of navList">
       <span> {{item.name}} </span>
     </mat-toolbar>
