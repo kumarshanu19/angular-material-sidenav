@@ -4,12 +4,21 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #eee;
+  // background: #eee;
+  background-image: url('https://images.unsplash.com/photo-1493584753368-64a38a466b66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
+
+  background-position: center;
+  background-size: cover;
 }
 .close_btn{
   position: absolute;
     top: 10px;
     right: 10px;
+}
+
+.navbar{
+  background: transparent;
+  color: #fff;
 }
 
 .mt_bar:nth-child(1){
