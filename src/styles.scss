@@ -5,3 +5,13 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .mat-drawer-inner-container {
   background-color: #fff1fbf2 !important;
 }
+::ng-deep {
+  .mat-form-field-appearance-outline .mat-form-field-outline {
+     color: white;
+  }
+  mat-form-field {
+     .mat-hint, input, ::placeholder, .mat-form-field-label {
+        color: white;
+     }
+  }
+}

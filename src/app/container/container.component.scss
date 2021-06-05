@@ -2,23 +2,16 @@
   display: flex;
   padding: 1rem;
   height: calc(100vh - 60px);
-  // background-image: url('https://images.unsplash.com/photo-1493584753368-64a38a466b66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
-
-  // background-position: center;
-  // background-size: cover;
 }
 section {
   display: table;
 }
-
 .cd{
   padding-right: 15px;
     padding-left: 15px;
     width: 100%;
     margin-top: 10px;
 }
-
-
 .content-center {
   position: absolute;
   top: 50%;
@@ -32,12 +25,19 @@ section {
 .title {
   font-weight: 700;
 }
-
-
 .search_d {
   background: #ffffff47;
   color: #000;
   padding: 20px 10px;
   border-radius: 20px;
   margin: 50px 0 0;
+}
+.mat-select-arrow {
+  color: white;
+}
+mat-label{
+  color: #fff !important;
+}
+.mat-select-value {
+  color: white;
 }
